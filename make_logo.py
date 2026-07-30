@@ -167,6 +167,24 @@ def fetch_api_key() -> str:
     return out.stdout.strip()
 
 
+#: README 本文中に貼る縮小版の出力先。
+#: **`<img width=...>` だけで縮めない** — 1024px の png を毎回落とさせることになる
+#: (このロゴは 300KB 超)。表示サイズぶんの実体を作って貼る。
+THUMB_OUT = "assets/logo_small.webp"
+
+
+def make_thumb(src: Path, dst: Path, px: int) -> str:
+    """`src` から幅 `px` の縮小版を作る。**透過は保つ** (README は明暗どちらの
+    テーマでも表示されるので、背景を焼き込むと片方で白い箱になる)。"""
+    from PIL import Image
+
+    im = Image.open(src).convert("RGBA")
+    im = im.resize((px, round(px * im.height / im.width)), Image.LANCZOS)
+    dst.parent.mkdir(parents=True, exist_ok=True)
+    im.save(dst, "WEBP", quality=92, method=6)
+    return f"{dst.name}  {im.size[0]}x{im.size[1]}  {dst.stat().st_size // 1024}KB"
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--variants", type=int, default=1, help="作る枚数 (見比べて選ぶ)")
@@ -179,9 +197,15 @@ def main() -> int:
                          "REDRAW_EMOJI_PROMPT の説明を読むこと)")
     ap.add_argument("--fit-only", action="store_true",
                     help="生成せず、いまの --out を中央寄せ + 背景抜きするだけ (API を呼ばない)")
+    ap.add_argument("--thumb", type=int, metavar="PX",
+                    help="生成せず、いまの --out から縮小版 (assets/logo_small.webp) を作る。"
+                         "README に本文中サイズで貼るため (API を呼ばない)")
     args = ap.parse_args()
 
     here_ = Path(__file__).resolve().parent
+    if args.thumb:
+        print(make_thumb(here_ / args.out, here_ / THUMB_OUT, args.thumb))
+        return 0
     if args.fit_only:
         fit_logo(here_ / args.out)
         return 0

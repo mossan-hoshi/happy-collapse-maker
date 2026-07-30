@@ -17,6 +17,46 @@
 
 ---
 
+## 普通の音声合成と何が違うのか
+
+<p align="center">
+  <img src="assets/logo_small.webp" width="200" alt="たのしい🔞崩壊メーカー">
+</p>
+
+**違いは 1 箇所だけ。参照音声を壊してからモデルに渡します。**
+出力を後からエフェクトで加工しているのではありません。
+
+```mermaid
+flowchart LR
+  subgraph N["通常の音声合成"]
+    direction LR
+    N1["参照音声 ＋ 書き起こし<br/>(3〜10秒)"] --> NM["音声合成モデル<br/>Qwen3-TTS"]
+    N2["読み上げる文"] --> NM
+    NM --> NO["合成音声"]
+  end
+
+  subgraph C["たのしい🔞崩壊メーカー"]
+    direction LR
+    C1["参照音声 ＋ 書き起こし<br/>(3〜10秒)"] --> CX["崩壊変換"]
+    CX --> CB["壊れた参照音声"]
+    CB --> CM["音声合成モデル<br/>Qwen3-TTS"]
+    C2["読み上げる文"] --> CM
+    CM --> CO["崩壊音声"]
+  end
+
+  %% エッジ番号は宣言順の 0 起点。崩壊経路 (C1→CX→CB→CM, CM→CO) だけを赤にする。
+  %% 6 は「読み上げる文 → モデル」で、これは通常と同じ扱いなので赤にしない。
+  classDef broken fill:#e5342b,stroke:#ff6b60,stroke-width:2px,color:#fff
+  class CX,CB,CO broken
+  linkStyle 3,4,5,7 stroke:#e5342b,stroke-width:2px
+```
+
+**音声合成モデルは上下で同じもの**です。読み上げる文もそのまま渡します。
+壊しているのは「どんな声で読むか」を決める参照音声のほうだけで、
+だから**崩れても同じ人の声のまま**になります。
+
+---
+
 ## サンプル
 
 <!-- SAMPLES:BEGIN -->
