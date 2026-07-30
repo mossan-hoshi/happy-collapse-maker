@@ -19,9 +19,6 @@
 
 ## 普通の音声合成と何が違うのか
 
-**違いは 1 箇所だけ。参照音声を壊してからモデルに渡します。**
-出力を後からエフェクトで加工しているのではありません。
-
 <!-- **図は 2 つに分ける。**1 つの mermaid に subgraph を 2 個入れると、
      最上位を TB にしても左右に並んでしまい上下比較にならない。
      ブロックを分ければ markdown の並び順どおり確実に上下になる。 -->
@@ -35,9 +32,7 @@ flowchart LR
   NM --> NO["合成音声"]
 ```
 
-<p align="center">
-  <img src="assets/logo_small.webp" width="200" alt="たのしい🔞崩壊メーカー">
-</p>
+### たのしい🔞崩壊メーカー — 参照音声を壊してから渡す
 
 ```mermaid
 flowchart LR
@@ -49,14 +44,11 @@ flowchart LR
 
   %% エッジ番号は宣言順の 0 起点。崩壊経路だけを赤にする。
   %% 3 は「読み上げる文 → モデル」で、通常と同じ扱いなので赤にしない。
-  classDef broken fill:#e5342b,stroke:#ff6b60,stroke-width:2px,color:#fff
+  %% **塗りつぶさない。**暗背景でも明背景でも読めるよう、枠線と文字色だけを赤にする。
+  classDef broken stroke:#e5342b,stroke-width:2px,color:#e5342b
   class CX,CB,CO broken
   linkStyle 0,1,2,4 stroke:#e5342b,stroke-width:2px
 ```
-
-**音声合成モデルは 2 つの図で同じもの**です。読み上げる文もそのまま渡します。
-壊しているのは「どんな声で読むか」を決める参照音声のほうだけで、
-だから**崩れても同じ人の声のまま**になります。
 
 ---
 
