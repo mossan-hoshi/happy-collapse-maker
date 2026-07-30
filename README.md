@@ -27,7 +27,9 @@
 出力を後からエフェクトで加工しているのではありません。
 
 ```mermaid
-flowchart LR
+%% 最上位は TB。**LR にすると 2 つの subgraph が左右に並んで**上下比較にならない
+%% (各 subgraph の中だけを direction LR で左→右に流す)。
+flowchart TB
   subgraph N["通常の音声合成"]
     direction LR
     N1["参照音声 ＋ 書き起こし<br/>(3〜10秒)"] --> NM["音声合成モデル<br/>Qwen3-TTS"]
