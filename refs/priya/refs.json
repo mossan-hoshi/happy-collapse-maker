@@ -1,0 +1,52 @@
+[
+  {
+    "name": "normal_01",
+    "style": "normal",
+    "wav": "normal_01.wav",
+    "duration_sec": 10.245,
+    "ref_text": "もう少しお待ち下さい、といって、シャツを脱いで、洗面台で顔を洗い始めた。タラスはいよいよ困ってしまいました。何日もの間、食べるものがありませんでした。",
+    "clips": [
+      {
+        "rel": "normal/common_voice_ja_38843851.wav",
+        "text": "もう少しお待ち下さい、といって、シャツを脱いで、洗面台で顔を洗い始めた。",
+        "duration_sec": 4.66,
+        "peak_dbfs": -8.0,
+        "rms_dbfs": -26.56,
+        "snr_db": 44.39
+      },
+      {
+        "rel": "normal/common_voice_ja_38843693.wav",
+        "text": "タラスはいよいよ困ってしまいました。何日もの間、食べるものがありませんでした。",
+        "duration_sec": 5.606,
+        "peak_dbfs": -7.7,
+        "rms_dbfs": -26.03,
+        "snr_db": 58.91
+      }
+    ]
+  },
+  {
+    "name": "normal_02",
+    "style": "normal",
+    "wav": "normal_02.wav",
+    "duration_sec": 12.885,
+    "ref_text": "「どうやってそれを防ぐおつもりですか？」と、村長がきく。「それは打ち明けてしまうわけにはいきません」と、Ｋはいった。わたしは父にだけは面倒をかけまいと思っていましたが、そのほかのことはみんなどうでもよかったのです。",
+    "clips": [
+      {
+        "rel": "normal/common_voice_ja_38843692.wav",
+        "text": "「どうやってそれを防ぐおつもりですか？」と、村長がきく。「それは打ち明けてしまうわけにはいきません」と、Ｋはいった。",
+        "duration_sec": 7.081,
+        "peak_dbfs": -8.04,
+        "rms_dbfs": -29.33,
+        "snr_db": 61.99
+      },
+      {
+        "rel": "normal/common_voice_ja_38843615.wav",
+        "text": "わたしは父にだけは面倒をかけまいと思っていましたが、そのほかのことはみんなどうでもよかったのです。",
+        "duration_sec": 5.824,
+        "peak_dbfs": -12.22,
+        "rms_dbfs": -28.94,
+        "snr_db": 41.77
+      }
+    ]
+  }
+]

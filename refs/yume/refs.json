@@ -1,0 +1,76 @@
+[
+  {
+    "name": "normal_01",
+    "style": "normal",
+    "wav": "normal_01.wav",
+    "duration_sec": 10.972,
+    "ref_text": "商品棚を見て、タブレットで管理する我々の知識作用というも、どこまでも歴史的行為として見られねばならない。しかしながら両者の関係をただ相関的であるというのは不十分である。",
+    "clips": [
+      {
+        "rel": "normal/common_voice_ja_29825181.wav",
+        "text": "商品棚を見て、タブレットで管理する",
+        "duration_sec": 2.327,
+        "peak_dbfs": -4.06,
+        "rms_dbfs": -17.64,
+        "snr_db": 54.41
+      },
+      {
+        "rel": "normal/common_voice_ja_29821797.wav",
+        "text": "我々の知識作用というも、どこまでも歴史的行為として見られねばならない。",
+        "duration_sec": 4.878,
+        "peak_dbfs": -5.84,
+        "rms_dbfs": -19.56,
+        "snr_db": 46.1
+      },
+      {
+        "rel": "normal/common_voice_ja_29824402.wav",
+        "text": "しかしながら両者の関係をただ相関的であるというのは不十分である。",
+        "duration_sec": 3.807,
+        "peak_dbfs": -5.63,
+        "rms_dbfs": -18.93,
+        "snr_db": 24.52
+      }
+    ]
+  },
+  {
+    "name": "normal_02",
+    "style": "normal",
+    "wav": "normal_02.wav",
+    "duration_sec": 10.037,
+    "ref_text": "しばらく使わないと劣化してボロボロ店の下調べのため会社帰りに寄ることにしたはじめからその態度なら納得したのにフィルターの手入れ不要とあっても手入れしてしまう",
+    "clips": [
+      {
+        "rel": "normal/common_voice_ja_30120298.wav",
+        "text": "しばらく使わないと劣化してボロボロ",
+        "duration_sec": 2.547,
+        "peak_dbfs": -6.09,
+        "rms_dbfs": -20.16,
+        "snr_db": 59.72
+      },
+      {
+        "rel": "normal/common_voice_ja_29763057.wav",
+        "text": "店の下調べのため会社帰りに寄ることにした",
+        "duration_sec": 3.059,
+        "peak_dbfs": -4.8,
+        "rms_dbfs": -17.93,
+        "snr_db": 29.27
+      },
+      {
+        "rel": "normal/common_voice_ja_29821909.wav",
+        "text": "はじめからその態度なら納得したのに",
+        "duration_sec": 2.143,
+        "peak_dbfs": -5.48,
+        "rms_dbfs": -19.65,
+        "snr_db": 24.05
+      },
+      {
+        "rel": "normal/common_voice_ja_29821972.wav",
+        "text": "フィルターの手入れ不要とあっても手入れしてしまう",
+        "duration_sec": 2.349,
+        "peak_dbfs": -7.06,
+        "rms_dbfs": -19.79,
+        "snr_db": 28.07
+      }
+    ]
+  }
+]

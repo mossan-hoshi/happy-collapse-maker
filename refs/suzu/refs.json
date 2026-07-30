@@ -1,0 +1,60 @@
+[
+  {
+    "name": "normal_01",
+    "style": "normal",
+    "wav": "normal_01.wav",
+    "duration_sec": 13.089,
+    "ref_text": "当人も勉強家であるかのごとく見せている本屋に行って読みたい欲求を膨らませてから家の未読本に手をつけるあくまでも疑念で証拠が示されたわけではない",
+    "clips": [
+      {
+        "rel": "normal/common_voice_ja_37424867.wav",
+        "text": "当人も勉強家であるかのごとく見せている",
+        "duration_sec": 3.627,
+        "peak_dbfs": -9.67,
+        "rms_dbfs": -25.32,
+        "snr_db": 50.82
+      },
+      {
+        "rel": "normal/common_voice_ja_37426029.wav",
+        "text": "本屋に行って読みたい欲求を膨らませてから家の未読本に手をつける",
+        "duration_sec": 5.915,
+        "peak_dbfs": -9.96,
+        "rms_dbfs": -25.01,
+        "snr_db": 57.15
+      },
+      {
+        "rel": "normal/common_voice_ja_37425770.wav",
+        "text": "あくまでも疑念で証拠が示されたわけではない",
+        "duration_sec": 3.587,
+        "peak_dbfs": -8.55,
+        "rms_dbfs": -24.79,
+        "snr_db": 37.88
+      }
+    ]
+  },
+  {
+    "name": "normal_02",
+    "style": "normal",
+    "wav": "normal_02.wav",
+    "duration_sec": 10.553,
+    "ref_text": "印象の薄い、図書館の隅に置かれた脚立のようなドラマだった。薄くなったからといって、必ずしも使いやすくなるわけではない",
+    "clips": [
+      {
+        "rel": "normal/common_voice_ja_37451401.wav",
+        "text": "印象の薄い、図書館の隅に置かれた脚立のようなドラマだった。",
+        "duration_sec": 5.873,
+        "peak_dbfs": -12.41,
+        "rms_dbfs": -26.17,
+        "snr_db": 60.52
+      },
+      {
+        "rel": "normal/common_voice_ja_37425875.wav",
+        "text": "薄くなったからといって、必ずしも使いやすくなるわけではない",
+        "duration_sec": 4.701,
+        "peak_dbfs": -7.55,
+        "rms_dbfs": -25.66,
+        "snr_db": 55.32
+      }
+    ]
+  }
+]

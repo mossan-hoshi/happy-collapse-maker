@@ -1,0 +1,23 @@
+__pycache__/
+*.pyc
+
+# モデル本体 (3.4GB)。setup_model.py で各自が取得する
+model/
+
+# 生成物
+out/
+dist/
+build/
+
+# 画像の生成候補 (作業ファイル)
+assets/*_candidates/
+
+# サンプル音声のシード探索 (当たりだけを samples/ に残す)
+samples/_probe/
+
+# README 埋め込み用の一時 mp4 (静止画+音声)。user-attachments へのアップロード
+# にしか使わず、配布物としては mp3 で足りるのでコミットしない
+samples/_embeds/
+
+# 開発機固有のパスなど (公開リポジトリに書けない値)
+DEVNOTES.local.md

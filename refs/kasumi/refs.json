@@ -1,0 +1,76 @@
+[
+  {
+    "name": "normal_01",
+    "style": "normal",
+    "wav": "normal_01.wav",
+    "duration_sec": 13.301,
+    "ref_text": "怒られた犬はなんとなくばつの悪そうな顔をしてるかようにして現実が合理的であると同時に非合理的であり、落ちこんでたら犬にまで心配されてしまった地理は草原からピノンの森、高山の牧草地に及びます。",
+    "clips": [
+      {
+        "rel": "normal/common_voice_ja_27719168.wav",
+        "text": "怒られた犬はなんとなくばつの悪そうな顔をしてる",
+        "duration_sec": 3.16,
+        "peak_dbfs": -7.89,
+        "rms_dbfs": -23.47,
+        "snr_db": 27.1
+      },
+      {
+        "rel": "normal/common_voice_ja_27006060.wav",
+        "text": "かようにして現実が合理的であると同時に非合理的であり、",
+        "duration_sec": 3.658,
+        "peak_dbfs": -8.37,
+        "rms_dbfs": -23.6,
+        "snr_db": 32.03
+      },
+      {
+        "rel": "normal/common_voice_ja_26748400.wav",
+        "text": "落ちこんでたら犬にまで心配されてしまった",
+        "duration_sec": 2.796,
+        "peak_dbfs": -8.57,
+        "rms_dbfs": -23.66,
+        "snr_db": 37.19
+      },
+      {
+        "rel": "normal/common_voice_ja_26189707.wav",
+        "text": "地理は草原からピノンの森、高山の牧草地に及びます。",
+        "duration_sec": 3.747,
+        "peak_dbfs": -7.23,
+        "rms_dbfs": -24.09,
+        "snr_db": 30.84
+      }
+    ]
+  },
+  {
+    "name": "normal_02",
+    "style": "normal",
+    "wav": "normal_02.wav",
+    "duration_sec": 10.242,
+    "ref_text": "また不正じゃん、罰則を強化しないとなくならないよなんかもう何も言えない空気になったなそれらは、衝撃によって作成された地殻の亀裂である可能性があります。",
+    "clips": [
+      {
+        "rel": "normal/common_voice_ja_27369101.wav",
+        "text": "また不正じゃん、罰則を強化しないとなくならないよ",
+        "duration_sec": 3.21,
+        "peak_dbfs": -7.93,
+        "rms_dbfs": -23.57,
+        "snr_db": 25.98
+      },
+      {
+        "rel": "normal/common_voice_ja_28465018.wav",
+        "text": "なんかもう何も言えない空気になったな",
+        "duration_sec": 2.664,
+        "peak_dbfs": -11.51,
+        "rms_dbfs": -23.56,
+        "snr_db": 24.28
+      },
+      {
+        "rel": "normal/common_voice_ja_26066971.wav",
+        "text": "それらは、衝撃によって作成された地殻の亀裂である可能性があります。",
+        "duration_sec": 4.408,
+        "peak_dbfs": -7.84,
+        "rms_dbfs": -23.77,
+        "snr_db": 29.22
+      }
+    ]
+  }
+]

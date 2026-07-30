@@ -1,0 +1,84 @@
+[
+  {
+    "name": "normal_01",
+    "style": "normal",
+    "wav": "normal_01.wav",
+    "duration_sec": 13.422,
+    "ref_text": "芸談一席と洒落る気になるかも知れないが、ぼんやりとした意識を二人に投げていたありがたみは、わからなくなるものだ。ラ・リオハ県の県都はログローニョである奇妙な男で、彼は人から話し掛けられないと口をきかない。",
+    "clips": [
+      {
+        "rel": "normal/common_voice_ja_39014527.wav",
+        "text": "芸談一席と洒落る気になるかも知れないが、",
+        "duration_sec": 2.767,
+        "peak_dbfs": -6.94,
+        "rms_dbfs": -23.18,
+        "snr_db": 28.26
+      },
+      {
+        "rel": "normal/common_voice_ja_39014562.wav",
+        "text": "ぼんやりとした意識を二人に投げていた",
+        "duration_sec": 2.305,
+        "peak_dbfs": -8.91,
+        "rms_dbfs": -26.38,
+        "snr_db": 34.25
+      },
+      {
+        "rel": "normal/common_voice_ja_39015147.wav",
+        "text": "ありがたみは、わからなくなるものだ。",
+        "duration_sec": 1.68,
+        "peak_dbfs": -7.02,
+        "rms_dbfs": -22.97,
+        "snr_db": 24.96
+      },
+      {
+        "rel": "normal/common_voice_ja_39014244.wav",
+        "text": "ラ・リオハ県の県都はログローニョである",
+        "duration_sec": 2.965,
+        "peak_dbfs": -8.18,
+        "rms_dbfs": -23.72,
+        "snr_db": 29.56
+      },
+      {
+        "rel": "normal/common_voice_ja_39025795.wav",
+        "text": "奇妙な男で、彼は人から話し掛けられないと口をきかない。",
+        "duration_sec": 3.785,
+        "peak_dbfs": -6.83,
+        "rms_dbfs": -26.47,
+        "snr_db": 52.97
+      }
+    ]
+  },
+  {
+    "name": "normal_02",
+    "style": "normal",
+    "wav": "normal_02.wav",
+    "duration_sec": 11.983,
+    "ref_text": "最近読んだ面白い本、あれば教えて！探してるんだよね。この世界に残された数少ない資材を使って、淡々とボートを作り上げていった週末の予定は何かある？何か楽しいことでもする予定？",
+    "clips": [
+      {
+        "rel": "normal/common_voice_ja_39015002.wav",
+        "text": "最近読んだ面白い本、あれば教えて！探してるんだよね。",
+        "duration_sec": 3.26,
+        "peak_dbfs": -7.4,
+        "rms_dbfs": -23.72,
+        "snr_db": 47.78
+      },
+      {
+        "rel": "normal/common_voice_ja_39014523.wav",
+        "text": "この世界に残された数少ない資材を使って、淡々とボートを作り上げていった",
+        "duration_sec": 5.022,
+        "peak_dbfs": -6.81,
+        "rms_dbfs": -25.57,
+        "snr_db": 39.04
+      },
+      {
+        "rel": "normal/common_voice_ja_39015001.wav",
+        "text": "週末の予定は何かある？何か楽しいことでもする予定？",
+        "duration_sec": 3.741,
+        "peak_dbfs": -6.78,
+        "rms_dbfs": -24.81,
+        "snr_db": 56.55
+      }
+    ]
+  }
+]

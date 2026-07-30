@@ -1,0 +1,35 @@
+# Qwen TTS Studio の依存。開発機 (Windows / CUDA 12.6) で動いている構成。
+#
+# torch は環境ごとに入れ方が違う。**先に torch だけ環境に合わせて入れてから**
+# 本ファイルを入れること。
+#
+#   Windows / NVIDIA:
+#     pip install torch torchaudio --index-url https://download.pytorch.org/whl/cu126
+#   macOS (Apple Silicon / MPS):
+#     pip install torch torchaudio          # 通常の PyPI 版で MPS が使える
+#   CPU のみ:
+#     pip install torch torchaudio --index-url https://download.pytorch.org/whl/cpu
+
+qwen-tts==0.1.1
+transformers==4.57.3
+accelerate==1.12.0
+safetensors==0.8.0
+huggingface-hub==0.36.2
+
+nicegui==3.15.0
+
+# 多重起動ガードでプロセスの同一性 (生成時刻 / コマンドライン) を見るのに使う。
+# accelerate が依存しているので実質は既に入っているが、直接使うので明示する。
+psutil==7.2.2
+
+numpy==2.4.6
+soundfile==0.14.0
+librosa==0.11.0
+
+# アップロードされた参照音声の書き起こしを自動で作る。**ICL は書き起こし必須**なので、
+# 無いと「音声を入れたのに生成できない」で詰まる。CPU int8 で回すため CUDA は要らない。
+# モデル本体 (small で約 500MB) は**初回の書き起こし時に自動で落ちてくる**。
+faster-whisper==1.2.1
+
+# バイナリ化する場合のみ
+# pyinstaller
