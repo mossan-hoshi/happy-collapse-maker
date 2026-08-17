@@ -1,150 +1,266 @@
 [
   {
-    "name": "set1",
+    "name": "normal",
     "style": "normal",
-    "wav": "set1.wav",
-    "duration_sec": 11.497,
-    "ref_text": "男は煙を眺めていた。僕らも煙を眺めた。黙って煙を眺めた。今にも自転車は倒れて、中庭の外に溢れてきそうだった",
+    "wav": "normal.wav",
+    "duration_sec": 10.523,
+    "ref_text": "男は煙を眺めていた。僕らも煙を眺めた。黙って煙を眺めた。ところがどうもうるさいことは、また扉が一つありました",
+    "note": "",
     "clips": [
       {
-        "rel": "normal/common_voice_ja_39306939.wav",
+        "rel": "common_voice_ja_39306939.wav",
         "text": "男は煙を眺めていた。僕らも煙を眺めた。黙って煙を眺めた。",
         "duration_sec": 6.517
       },
       {
-        "rel": "normal/common_voice_ja_39306938.wav",
-        "text": "今にも自転車は倒れて、中庭の外に溢れてきそうだった",
-        "duration_sec": 5.0
-      }
-    ]
-  },
-  {
-    "name": "set2",
-    "style": "normal",
-    "wav": "set2.wav",
-    "duration_sec": 7.724,
-    "ref_text": "ところがどうもうるさいことは、また扉が一つありましたあの男は死や投獄に値することは何もしていない",
-    "clips": [
-      {
-        "rel": "normal/common_voice_ja_39306942.wav",
+        "rel": "common_voice_ja_39306942.wav",
         "text": "ところがどうもうるさいことは、また扉が一つありました",
         "duration_sec": 3.806
-      },
-      {
-        "rel": "normal/common_voice_ja_39306941.wav",
-        "text": "あの男は死や投獄に値することは何もしていない",
-        "duration_sec": 3.938
       }
     ]
   },
   {
-    "name": "set3",
-    "style": "normal",
-    "wav": "set3.wav",
-    "duration_sec": 3.824,
-    "ref_text": "あいのままにわがままにぼくはきみだけをきずつけないはずれそう",
+    "name": "normal2",
+    "style": "normal2",
+    "wav": "normal2.wav",
+    "duration_sec": 12.986,
+    "ref_text": "何もない、スーパーの中には何もなかったゴシップ誌、漫画雑誌に百科事典、壊れたパイプ椅子、魚臭い発砲スチロールこの中庭で、あのゴミの山で、僕らは見つけたんだ",
+    "note": "",
     "clips": [
       {
-        "rel": "normal/common_voice_ja_39306971.wav",
-        "text": "あいのままにわがままにぼくはきみだけをきずつけない",
-        "duration_sec": 3.177
+        "rel": "common_voice_ja_39307065.wav",
+        "text": "何もない、スーパーの中には何もなかった",
+        "duration_sec": 2.827
       },
       {
-        "rel": "normal/common_voice_ja_39306979.wav",
-        "text": "はずれそう",
-        "duration_sec": 0.667
+        "rel": "common_voice_ja_39307136.wav",
+        "text": "ゴシップ誌、漫画雑誌に百科事典、壊れたパイプ椅子、魚臭い発砲スチロール",
+        "duration_sec": 5.83
+      },
+      {
+        "rel": "common_voice_ja_39307135.wav",
+        "text": "この中庭で、あのゴミの山で、僕らは見つけたんだ",
+        "duration_sec": 3.929
       }
     ]
   },
   {
-    "name": "set4",
-    "style": "normal",
-    "wav": "set4.wav",
-    "duration_sec": 5.122,
-    "ref_text": "発話トーゴの首都はロメである雨がふるピンセット行けたら行きます",
+    "name": "cool",
+    "style": "cool",
+    "wav": "cool.wav",
+    "duration_sec": 13.575,
+    "ref_text": "生誕から１世紀を迎えた今でもハチ公のストーリーは、 人と動物の関係を超えた愛と絆を私たちに教えてくれます元気だよＣＭに移るまで、僕らは画面から目を離さず、じっと座っていた最低だね",
+    "note": "",
     "clips": [
       {
-        "rel": "normal/common_voice_ja_39306983.wav",
+        "rel": "common_voice_ja_39306980.wav",
+        "text": "生誕から１世紀を迎えた今でもハチ公のストーリーは、 人と動物の関係を超えた愛と絆を私たちに教えてくれます",
+        "duration_sec": 7.717
+      },
+      {
+        "rel": "common_voice_ja_39306997.wav",
+        "text": "元気だよ",
+        "duration_sec": 0.642
+      },
+      {
+        "rel": "common_voice_ja_39306998.wav",
+        "text": "ＣＭに移るまで、僕らは画面から目を離さず、じっと座っていた",
+        "duration_sec": 3.927
+      },
+      {
+        "rel": "common_voice_ja_39307021.wav",
+        "text": "最低だね",
+        "duration_sec": 0.689
+      }
+    ]
+  },
+  {
+    "name": "cool2",
+    "style": "cool2",
+    "wav": "cool2.wav",
+    "duration_sec": 11.806,
+    "ref_text": "タバコは僕の革靴に当たって、跳ねて、地面の上に転がり、三回回って、止まるかなり巧みな微笑になってはいるが、しかし、人間の笑いと、どこやら違う",
+    "note": "",
+    "clips": [
+      {
+        "rel": "common_voice_ja_39307177.wav",
+        "text": "タバコは僕の革靴に当たって、跳ねて、地面の上に転がり、三回回って、止まる",
+        "duration_sec": 6.57
+      },
+      {
+        "rel": "common_voice_ja_39307178.wav",
+        "text": "かなり巧みな微笑になってはいるが、しかし、人間の笑いと、どこやら違う",
+        "duration_sec": 5.036
+      }
+    ]
+  },
+  {
+    "name": "boyish",
+    "style": "boyish",
+    "wav": "boyish.wav",
+    "duration_sec": 9.602,
+    "ref_text": "高校生の時はスポーツをするのが嫌いだった僕も同じだと言い、会話はそこで止まる。君の視線は写真集に戻る。",
+    "note": "",
+    "clips": [
+      {
+        "rel": "common_voice_ja_39307252.wav",
+        "text": "高校生の時はスポーツをするのが嫌いだった",
+        "duration_sec": 2.806
+      },
+      {
+        "rel": "common_voice_ja_39307253.wav",
+        "text": "僕も同じだと言い、会話はそこで止まる。君の視線は写真集に戻る。",
+        "duration_sec": 6.596
+      }
+    ]
+  },
+  {
+    "name": "hoge",
+    "style": "hoge",
+    "wav": "hoge.wav",
+    "duration_sec": 10.866,
+    "ref_text": "発話トーゴの首都はロメである雨がふるピンセットキノコ狩りの男あいうえお、かきくけこ、さしすせそ。北海道枝幸町",
+    "note": "",
+    "clips": [
+      {
+        "rel": "common_voice_ja_39306983.wav",
         "text": "発話",
         "duration_sec": 0.546
       },
       {
-        "rel": "normal/common_voice_ja_39306986.wav",
+        "rel": "common_voice_ja_39306986.wav",
         "text": "トーゴの首都はロメである",
         "duration_sec": 1.634
       },
       {
-        "rel": "normal/common_voice_ja_39306988.wav",
+        "rel": "common_voice_ja_39306988.wav",
         "text": "雨がふる",
         "duration_sec": 0.85
       },
       {
-        "rel": "normal/common_voice_ja_39307058.wav",
+        "rel": "common_voice_ja_39307058.wav",
         "text": "ピンセット",
         "duration_sec": 0.889
       },
       {
-        "rel": "normal/common_voice_ja_39307096.wav",
-        "text": "行けたら行きます",
-        "duration_sec": 1.283
+        "rel": "common_voice_ja_39307179.wav",
+        "text": "キノコ狩りの男",
+        "duration_sec": 1.248
+      },
+      {
+        "rel": "common_voice_ja_39307490.wav",
+        "text": "あいうえお、かきくけこ、さしすせそ。",
+        "duration_sec": 3.08
+      },
+      {
+        "rel": "common_voice_ja_39307491.wav",
+        "text": "北海道枝幸町",
+        "duration_sec": 1.419
       }
     ]
   },
   {
-    "name": "set5",
-    "style": "normal",
-    "wav": "set5.wav",
-    "duration_sec": 4.954,
-    "ref_text": "青いよね自信満々行けたら行きますI love cats.みみちゃんどうして",
+    "name": "lazy",
+    "style": "lazy",
+    "wav": "lazy.wav",
+    "duration_sec": 9.663,
+    "ref_text": "青いよね自信満々行けたら行きますI love cats.みみちゃんどうして上智大学宮城県村田町いらっしゃいませ",
+    "note": "",
     "clips": [
       {
-        "rel": "normal/common_voice_ja_39307076.wav",
+        "rel": "common_voice_ja_39307076.wav",
         "text": "青いよね",
         "duration_sec": 0.86
       },
       {
-        "rel": "normal/common_voice_ja_39307095.wav",
+        "rel": "common_voice_ja_39307095.wav",
         "text": "自信満々",
         "duration_sec": 0.888
       },
       {
-        "rel": "normal/common_voice_ja_39307096.wav",
+        "rel": "common_voice_ja_39307096.wav",
         "text": "行けたら行きます",
         "duration_sec": 1.283
       },
       {
-        "rel": "normal/common_voice_ja_39307097.wav",
+        "rel": "common_voice_ja_39307097.wav",
         "text": "I love cats.",
         "duration_sec": 0.947
       },
       {
-        "rel": "normal/common_voice_ja_39307098.wav",
+        "rel": "common_voice_ja_39307098.wav",
         "text": "みみちゃん",
         "duration_sec": 0.499
       },
       {
-        "rel": "normal/common_voice_ja_39307099.wav",
+        "rel": "common_voice_ja_39307099.wav",
         "text": "どうして",
         "duration_sec": 0.576
+      },
+      {
+        "rel": "common_voice_ja_39307181.wav",
+        "text": "上智大学",
+        "duration_sec": 0.835
+      },
+      {
+        "rel": "common_voice_ja_39307183.wav",
+        "text": "宮城県村田町",
+        "duration_sec": 1.42
+      },
+      {
+        "rel": "common_voice_ja_39307591.wav",
+        "text": "いらっしゃいませ",
+        "duration_sec": 0.754
       }
     ]
   },
   {
-    "name": "set6",
-    "style": "normal",
-    "wav": "set6.wav",
-    "duration_sec": 15.929,
-    "ref_text": "なるほど、さすがの羊公も、今は一片の石で、しかも剥落して青苔を蒙つてゐる。だから人生はやはり酒でも飲めと李白はいふのであらうが、ここに一つ大切なことがある。タバコは僕の革靴に当たって、跳ねて、地面の上に転がり、三回回って、止まる",
+    "name": "emotional",
+    "style": "emotional",
+    "wav": "emotional.wav",
+    "duration_sec": 10.795,
+    "ref_text": "ながくねよめねぇ～！星いいよひどいまだかよ私の言葉うっすらかーげおれたちのおっかーげーんなことあるかい",
+    "note": "",
     "clips": [
       {
-        "rel": "normal/common_voice_ja_39307139.wav",
-        "text": "なるほど、さすがの羊公も、今は一片の石で、しかも剥落して青苔を蒙つてゐる。だから人生はやはり酒でも飲めと李白はいふのであらうが、ここに一つ大切なことがある。",
-        "duration_sec": 9.379
+        "rel": "common_voice_ja_39307180.wav",
+        "text": "ながくね",
+        "duration_sec": 0.51
       },
       {
-        "rel": "normal/common_voice_ja_39307177.wav",
-        "text": "タバコは僕の革靴に当たって、跳ねて、地面の上に転がり、三回回って、止まる",
-        "duration_sec": 6.57
+        "rel": "common_voice_ja_39307190.wav",
+        "text": "よめねぇ～！",
+        "duration_sec": 0.878
+      },
+      {
+        "rel": "common_voice_ja_39307193.wav",
+        "text": "星いいよ",
+        "duration_sec": 1.08
+      },
+      {
+        "rel": "common_voice_ja_39307342.wav",
+        "text": "ひどい",
+        "duration_sec": 0.411
+      },
+      {
+        "rel": "common_voice_ja_39307377.wav",
+        "text": "まだかよ",
+        "duration_sec": 0.64
+      },
+      {
+        "rel": "common_voice_ja_39307416.wav",
+        "text": "私の言葉",
+        "duration_sec": 1.026
+      },
+      {
+        "rel": "common_voice_ja_39307417.wav",
+        "text": "うっすらかーげおれたちのおっかーげー",
+        "duration_sec": 3.903
+      },
+      {
+        "rel": "common_voice_ja_39307421.wav",
+        "text": "んなことあるかい",
+        "duration_sec": 0.947
       }
     ]
   }

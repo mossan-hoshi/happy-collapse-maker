@@ -101,7 +101,11 @@ SAMPLES: tuple[dict, ...] = (
     # noa の中段は**弱めた値で描いたテイクを採用した** (`start=0.65` / `hard=0.90`)。
     # つまみ位置に換算すると 0.70 = 35% なので表記はその % だが、補間値
     # (`hard=0.93`) では**崩壊が不発になった**ので、実値を `fx` に持って再現する。
-    dict(char="noa",     ref="set1",      keep=(NORMAL, EVE, FULL),
+    # 乃亜の参照は 2026-08-17 に 8 スタイルへ差し替えた (set1〜6 は廃止)。
+    # 旧 `set1` の後継はこの `normal` だが**同じ音ではない** (共通クリップは 1 本だけ)。
+    # 下の seed は旧参照で当てたテイクの記録なので、作り直すなら `--probe` で取り直すこと。
+    # 通常は `keep` に全段が入っているので再生成されない。
+    dict(char="noa",     ref="normal",    keep=(NORMAL, EVE, FULL),
          seeds={NORMAL: 1, EVE: 1, FULL: 842759}, pos={EVE: 0.70},
          fx={EVE: dict(chunk_sec=0.50, start=0.65, hard=0.90, warp=0.0)}),
     dict(char="yume",    ref="normal_01", keep=(NORMAL, EVE, FULL),
