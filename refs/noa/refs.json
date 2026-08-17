@@ -45,12 +45,12 @@
     ]
   },
   {
-    "name": "cool",
-    "style": "cool",
-    "wav": "cool.wav",
+    "name": "whisper",
+    "style": "whisper",
+    "wav": "whisper.wav",
     "duration_sec": 13.575,
     "ref_text": "生誕から１世紀を迎えた今でもハチ公のストーリーは、 人と動物の関係を超えた愛と絆を私たちに教えてくれます元気だよＣＭに移るまで、僕らは画面から目を離さず、じっと座っていた最低だね",
-    "note": "",
+    "note": "novtube 側で「ささやき」として採用 (旧 cool)。2026-08-18 改名",
     "clips": [
       {
         "rel": "common_voice_ja_39306980.wav",
