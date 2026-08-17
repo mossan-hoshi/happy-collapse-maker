@@ -113,9 +113,15 @@ QWEN_TTS_MODEL=<snapshot パス> python app.py   # 別の場所に置いてい�
 `load_refs` が読み込まない。**除外リストは持たない** — 出さないと決めた
 キャラの名前がコードに残ってしまうため。
 
+乃亜の参照は novtube 側 (`tool/tts/style_refs/style_sources.yaml`) が SoT。
+2026-08-18 に向こうで `cool` → `whisper`「ささやき」へ改名し、`cool2` と `emotional` は
+不採用になった。**不採用の 2 つはこちらには残す** — 崩壊の素材は多いほうがよいため。
+`hoge` は冒頭・末尾の孤立短語を除いて 10.9s → 8.8s に短くなっている
+(短語で始まると Qwen が出だしの癖ごと写し、生成音の頭に異物が乗る)。
+
 | ID | 表記 | 参照 (実発話長) |
 |---|---|---|
-| `noa` | 文月 乃亜 | normal(10.5s) normal2(13.0s) cool(13.6s) cool2(11.8s) boyish(9.6s) hoge(10.9s) lazy(9.7s) emotional(10.8s) |
+| `noa` | 文月 乃亜 | normal(10.5s) normal2(13.0s) whisper(13.6s) boyish(9.6s) hoge(8.8s) lazy(9.7s) / 本家不採用: cool2(11.8s) emotional(10.8s) |
 | `tsukasa` | 御影 司 | normal_01(13.4s) normal_02(12.0s) |
 | `ritsu` | 柊 律 | normal_01(15.0s) normal_02(14.8s) |
 | `reika` | 御影 怜香 | normal_01(14.6s) normal_02(14.7s) |
