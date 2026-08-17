@@ -118,15 +118,10 @@
     "name": "hoge",
     "style": "hoge",
     "wav": "hoge.wav",
-    "duration_sec": 10.866,
-    "ref_text": "発話トーゴの首都はロメである雨がふるピンセットキノコ狩りの男あいうえお、かきくけこ、さしすせそ。北海道枝幸町",
-    "note": "",
+    "duration_sec": 8.769,
+    "ref_text": "トーゴの首都はロメである雨がふるピンセットキノコ狩りの男あいうえお、かきくけこ、さしすせそ。",
+    "note": "冒頭「発話」(0.55s の孤立短語) が生成音の出だしに異物として乗るため、1 本目と 7 本目を除いた hoge_short.wav に差し替え (2026-08-18)",
     "clips": [
-      {
-        "rel": "common_voice_ja_39306983.wav",
-        "text": "発話",
-        "duration_sec": 0.546
-      },
       {
         "rel": "common_voice_ja_39306986.wav",
         "text": "トーゴの首都はロメである",
@@ -151,11 +146,6 @@
         "rel": "common_voice_ja_39307490.wav",
         "text": "あいうえお、かきくけこ、さしすせそ。",
         "duration_sec": 3.08
-      },
-      {
-        "rel": "common_voice_ja_39307491.wav",
-        "text": "北海道枝幸町",
-        "duration_sec": 1.419
       }
     ]
   },
