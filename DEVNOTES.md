@@ -82,6 +82,8 @@ QWEN_TTS_MODEL=<snapshot パス> python app.py   # 別の場所に置いてい�
   **シード 3 通り × 2 段すべて不発**、11.5 秒の set1 で 1 発目から崩壊した。
   **文にも強く依存する** — 同じ set6 で台詞系の文は全滅、地の文は set1 で即崩壊。
   当たり外れは `make_samples.py --probe` で探すこと (§10)
+  (この set1〜6 は **2026-08-17 に 8 スタイルへ差し替えた旧参照**。
+  観測そのものは有効だが、同じ名前の参照はもう無い)
 - **キャラによっては当たらない。**8 キャラ × 地の文 × シード 1,7 の実測 (`--probe`):
 
   | | 崩壊前夜 | 完全崩壊 |
@@ -113,7 +115,7 @@ QWEN_TTS_MODEL=<snapshot パス> python app.py   # 別の場所に置いてい�
 
 | ID | 表記 | 参照 (実発話長) |
 |---|---|---|
-| `noa` | 文月 乃亜 | set1(11.5s) set2(7.7s) set3(3.8s) set4(5.1s) set5(5.0s) set6(15.9s) |
+| `noa` | 文月 乃亜 | normal(10.5s) normal2(13.0s) cool(13.6s) cool2(11.8s) boyish(9.6s) hoge(10.9s) lazy(9.7s) emotional(10.8s) |
 | `tsukasa` | 御影 司 | normal_01(13.4s) normal_02(12.0s) |
 | `ritsu` | 柊 律 | normal_01(15.0s) normal_02(14.8s) |
 | `reika` | 御影 怜香 | normal_01(14.6s) normal_02(14.7s) |
