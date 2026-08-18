@@ -3,19 +3,19 @@
     "name": "normal",
     "style": "normal",
     "wav": "normal.wav",
-    "duration_sec": 10.523,
-    "ref_text": "男は煙を眺めていた。僕らも煙を眺めた。黙って煙を眺めた。ところがどうもうるさいことは、また扉が一つありました",
-    "note": "",
+    "duration_sec": 13.788,
+    "ref_text": "男は煙を眺めていた。僕らも煙を眺めた。黙って煙を眺めた。ところがどうもうるさいことは、また扉が一つありました。",
+    "note": "元音源をそのまま連結 (トリム・無音挿入なし。2026-08-18 作り直し)",
     "clips": [
       {
         "rel": "common_voice_ja_39306939.wav",
         "text": "男は煙を眺めていた。僕らも煙を眺めた。黙って煙を眺めた。",
-        "duration_sec": 6.517
+        "duration_sec": 8.352
       },
       {
         "rel": "common_voice_ja_39306942.wav",
         "text": "ところがどうもうるさいことは、また扉が一つありました",
-        "duration_sec": 3.806
+        "duration_sec": 5.436
       }
     ]
   },
@@ -23,24 +23,24 @@
     "name": "normal2",
     "style": "normal2",
     "wav": "normal2.wav",
-    "duration_sec": 12.986,
-    "ref_text": "何もない、スーパーの中には何もなかったゴシップ誌、漫画雑誌に百科事典、壊れたパイプ椅子、魚臭い発砲スチロールこの中庭で、あのゴミの山で、僕らは見つけたんだ",
-    "note": "",
+    "duration_sec": 17.46,
+    "ref_text": "何もない！ゴシップ誌、漫画雑誌に百科事典、壊れたパイプ椅子、魚臭い発砲スチロール。この中庭で、あのゴミの山で、僕らは見つけたんだ。",
+    "note": "元音源をそのまま連結 (トリム・無音挿入なし。2026-08-18 作り直し)",
     "clips": [
       {
         "rel": "common_voice_ja_39307065.wav",
         "text": "何もない、スーパーの中には何もなかった",
-        "duration_sec": 2.827
+        "duration_sec": 4.284
       },
       {
         "rel": "common_voice_ja_39307136.wav",
         "text": "ゴシップ誌、漫画雑誌に百科事典、壊れたパイプ椅子、魚臭い発砲スチロール",
-        "duration_sec": 5.83
+        "duration_sec": 6.984
       },
       {
         "rel": "common_voice_ja_39307135.wav",
         "text": "この中庭で、あのゴミの山で、僕らは見つけたんだ",
-        "duration_sec": 3.929
+        "duration_sec": 6.192
       }
     ]
   },
@@ -48,49 +48,49 @@
     "name": "whisper",
     "style": "whisper",
     "wav": "whisper.wav",
-    "duration_sec": 13.575,
-    "ref_text": "生誕から１世紀を迎えた今でもハチ公のストーリーは、 人と動物の関係を超えた愛と絆を私たちに教えてくれます元気だよＣＭに移るまで、僕らは画面から目を離さず、じっと座っていた最低だね",
-    "note": "novtube 側で「ささやき」として採用 (旧 cool)。2026-08-18 改名",
+    "duration_sec": 19.26,
+    "ref_text": "生誕から１世紀を迎えた今でもハチ公のストーリーは、 人と動物の関係を超えた愛と絆を私たちに教えてくれます。元気だよ。ＣＭに移るまで、僕らは画面から目を離さず、じっと座っていた。最低だね。",
+    "note": "元音源をそのまま連結 (トリム・無音挿入なし。2026-08-18 作り直し)",
     "clips": [
       {
         "rel": "common_voice_ja_39306980.wav",
         "text": "生誕から１世紀を迎えた今でもハチ公のストーリーは、 人と動物の関係を超えた愛と絆を私たちに教えてくれます",
-        "duration_sec": 7.717
+        "duration_sec": 8.964
       },
       {
         "rel": "common_voice_ja_39306997.wav",
         "text": "元気だよ",
-        "duration_sec": 0.642
+        "duration_sec": 2.628
       },
       {
         "rel": "common_voice_ja_39306998.wav",
         "text": "ＣＭに移るまで、僕らは画面から目を離さず、じっと座っていた",
-        "duration_sec": 3.927
+        "duration_sec": 5.364
       },
       {
         "rel": "common_voice_ja_39307021.wav",
         "text": "最低だね",
-        "duration_sec": 0.689
+        "duration_sec": 2.304
       }
     ]
   },
   {
-    "name": "cool2",
-    "style": "cool2",
-    "wav": "cool2.wav",
-    "duration_sec": 11.806,
-    "ref_text": "タバコは僕の革靴に当たって、跳ねて、地面の上に転がり、三回回って、止まるかなり巧みな微笑になってはいるが、しかし、人間の笑いと、どこやら違う",
-    "note": "",
+    "name": "calm",
+    "style": "calm",
+    "wav": "calm.wav",
+    "duration_sec": 14.544,
+    "ref_text": "タバコは僕の革靴に当たって、跳ねて、地面の上に転がり、三回回って、止まる。かなり巧みな微笑になってはいるが、しかし、人間の笑いと、どこやら違う。",
+    "note": "旧 cool2「クール2」。2026-08-18 に「おだやか」へ改名 (ユーザー決定)",
     "clips": [
       {
         "rel": "common_voice_ja_39307177.wav",
         "text": "タバコは僕の革靴に当たって、跳ねて、地面の上に転がり、三回回って、止まる",
-        "duration_sec": 6.57
+        "duration_sec": 8.244
       },
       {
         "rel": "common_voice_ja_39307178.wav",
         "text": "かなり巧みな微笑になってはいるが、しかし、人間の笑いと、どこやら違う",
-        "duration_sec": 5.036
+        "duration_sec": 6.3
       }
     ]
   },
@@ -98,19 +98,19 @@
     "name": "boyish",
     "style": "boyish",
     "wav": "boyish.wav",
-    "duration_sec": 9.602,
-    "ref_text": "高校生の時はスポーツをするのが嫌いだった僕も同じだと言い、会話はそこで止まる。君の視線は写真集に戻る。",
-    "note": "",
+    "duration_sec": 13.104,
+    "ref_text": "高校生の時はスポーツをするのが嫌いだった。僕も同じだと言い、会話はそこで止まる。君の視線は写真集に戻る。",
+    "note": "元音源をそのまま連結 (トリム・無音挿入なし。2026-08-18 作り直し)",
     "clips": [
       {
         "rel": "common_voice_ja_39307252.wav",
         "text": "高校生の時はスポーツをするのが嫌いだった",
-        "duration_sec": 2.806
+        "duration_sec": 4.392
       },
       {
         "rel": "common_voice_ja_39307253.wav",
         "text": "僕も同じだと言い、会話はそこで止まる。君の視線は写真集に戻る。",
-        "duration_sec": 6.596
+        "duration_sec": 8.712
       }
     ]
   },
@@ -118,34 +118,34 @@
     "name": "hoge",
     "style": "hoge",
     "wav": "hoge.wav",
-    "duration_sec": 8.769,
-    "ref_text": "トーゴの首都はロメである雨がふるピンセットキノコ狩りの男あいうえお、かきくけこ、さしすせそ。",
-    "note": "冒頭「発話」(0.55s の孤立短語) が生成音の出だしに異物として乗るため、1 本目と 7 本目を除いた hoge_short.wav に差し替え (2026-08-18)",
+    "duration_sec": 15.192,
+    "ref_text": "トーゴの首都はロメである。雨がふる。ピンセット。キノコ狩りの男。あいうえお、かきくけこ、さしすせそ。",
+    "note": "元音源をそのまま連結 (トリム・無音挿入なし。2026-08-18 作り直し)",
     "clips": [
       {
         "rel": "common_voice_ja_39306986.wav",
         "text": "トーゴの首都はロメである",
-        "duration_sec": 1.634
+        "duration_sec": 2.88
       },
       {
         "rel": "common_voice_ja_39306988.wav",
         "text": "雨がふる",
-        "duration_sec": 0.85
+        "duration_sec": 2.448
       },
       {
         "rel": "common_voice_ja_39307058.wav",
         "text": "ピンセット",
-        "duration_sec": 0.889
+        "duration_sec": 2.304
       },
       {
         "rel": "common_voice_ja_39307179.wav",
         "text": "キノコ狩りの男",
-        "duration_sec": 1.248
+        "duration_sec": 2.52
       },
       {
         "rel": "common_voice_ja_39307490.wav",
         "text": "あいうえお、かきくけこ、さしすせそ。",
-        "duration_sec": 3.08
+        "duration_sec": 5.04
       }
     ]
   },
@@ -153,54 +153,54 @@
     "name": "lazy",
     "style": "lazy",
     "wav": "lazy.wav",
-    "duration_sec": 9.663,
-    "ref_text": "青いよね自信満々行けたら行きますI love cats.みみちゃんどうして上智大学宮城県村田町いらっしゃいませ",
-    "note": "",
+    "duration_sec": 23.429,
+    "ref_text": "青いよね。自信満々。行けたら行きま～す。I love cats。みみちゃん。どうして？上智大学。宮城県村田町。いらっしゃいませぇ。",
+    "note": "元音源をそのまま連結 (トリム・無音挿入なし。2026-08-18 作り直し)",
     "clips": [
       {
         "rel": "common_voice_ja_39307076.wav",
         "text": "青いよね",
-        "duration_sec": 0.86
+        "duration_sec": 2.7
       },
       {
         "rel": "common_voice_ja_39307095.wav",
         "text": "自信満々",
-        "duration_sec": 0.888
+        "duration_sec": 2.232
       },
       {
         "rel": "common_voice_ja_39307096.wav",
         "text": "行けたら行きます",
-        "duration_sec": 1.283
+        "duration_sec": 2.196
       },
       {
         "rel": "common_voice_ja_39307097.wav",
         "text": "I love cats.",
-        "duration_sec": 0.947
+        "duration_sec": 2.484
       },
       {
         "rel": "common_voice_ja_39307098.wav",
         "text": "みみちゃん",
-        "duration_sec": 0.499
+        "duration_sec": 2.088
       },
       {
         "rel": "common_voice_ja_39307099.wav",
         "text": "どうして",
-        "duration_sec": 0.576
+        "duration_sec": 2.304
       },
       {
         "rel": "common_voice_ja_39307181.wav",
         "text": "上智大学",
-        "duration_sec": 0.835
+        "duration_sec": 3.096
       },
       {
         "rel": "common_voice_ja_39307183.wav",
         "text": "宮城県村田町",
-        "duration_sec": 1.42
+        "duration_sec": 2.736
       },
       {
         "rel": "common_voice_ja_39307591.wav",
         "text": "いらっしゃいませ",
-        "duration_sec": 0.754
+        "duration_sec": 3.593
       }
     ]
   },
@@ -208,49 +208,49 @@
     "name": "emotional",
     "style": "emotional",
     "wav": "emotional.wav",
-    "duration_sec": 10.795,
-    "ref_text": "ながくねよめねぇ～！星いいよひどいまだかよ私の言葉うっすらかーげおれたちのおっかーげーんなことあるかい",
-    "note": "",
+    "duration_sec": 27.648,
+    "ref_text": "ながくね？よめねぇ～！星いいよ。ひどい。まだかよ！私の言葉。うっすらかーげおれたちのおーかーげー。んなことあるかい！",
+    "note": "元音源をそのまま連結 (トリム・無音挿入なし。2026-08-18 作り直し)",
     "clips": [
       {
         "rel": "common_voice_ja_39307180.wav",
         "text": "ながくね",
-        "duration_sec": 0.51
+        "duration_sec": 3.24
       },
       {
         "rel": "common_voice_ja_39307190.wav",
         "text": "よめねぇ～！",
-        "duration_sec": 0.878
+        "duration_sec": 3.492
       },
       {
         "rel": "common_voice_ja_39307193.wav",
         "text": "星いいよ",
-        "duration_sec": 1.08
+        "duration_sec": 4.572
       },
       {
         "rel": "common_voice_ja_39307342.wav",
         "text": "ひどい",
-        "duration_sec": 0.411
+        "duration_sec": 2.34
       },
       {
         "rel": "common_voice_ja_39307377.wav",
         "text": "まだかよ",
-        "duration_sec": 0.64
+        "duration_sec": 2.484
       },
       {
         "rel": "common_voice_ja_39307416.wav",
         "text": "私の言葉",
-        "duration_sec": 1.026
+        "duration_sec": 3.348
       },
       {
         "rel": "common_voice_ja_39307417.wav",
         "text": "うっすらかーげおれたちのおっかーげー",
-        "duration_sec": 3.903
+        "duration_sec": 5.436
       },
       {
         "rel": "common_voice_ja_39307421.wav",
         "text": "んなことあるかい",
-        "duration_sec": 0.947
+        "duration_sec": 2.736
       }
     ]
   }
